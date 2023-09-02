@@ -10,7 +10,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-Proyect_RaceTrack-38b2df2a-a2bb-4e15-9126-9d2eccbc5a65")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Proyect_RaceTrack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
