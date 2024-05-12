@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+    <h1>LOGIN</h1>
+    <p>Ingrese usuario y contraseña para ingresar al sistema</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">NOMBRE: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">APELLIDO: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">EMAIL: <input id="email" name="email" type="email" required /></label>
+        <label for="new-password">CREAR NUEVO PASSWORD: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+      </fieldset>
+      <input type="submit" value="ENVIAR" />
+    </form>
     
 </body>
 </html>
