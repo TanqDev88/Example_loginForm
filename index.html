@@ -24,6 +24,20 @@
         </label>
       </fieldset>
       <fieldset>
+        <label for="profile-picture">SUBIR FOTO DE PERFIL: <input id="profile-picture" type="file" name="file" /></label>
+        <label for="age">EDAD (NUMEROS ENTEROS) <input id="age" type="number" name="age" min="13" max="120" /></label>
+        <label for="referrer">CAMPO SELECT
+          <select id="referrer" name="referrer">
+            <option value="">(opcion por defecto)</option>
+            <option value="1">opcion1</option>
+            <option value="2">opcion2</option>
+            <option value="3">opcion3</option>
+            <option value="4">opcion4</option>
+          </select>
+        </label>
+        <label for="bio">INGRESAR TEXTO:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="TEXTO POR DEFECTO..."></textarea>
+        </label>
       </fieldset>
       <input type="submit" value="ENVIAR" />
     </form>
