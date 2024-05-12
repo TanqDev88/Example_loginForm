@@ -1,32 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Example Login</title>
     <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
+  </head>
+  <body>
     <h1>LOGIN</h1>
     <p>Ingrese usuario y contraseña para ingresar al sistema</p>
-    <form method="post" action='https://register-demo.freecodecamp.org'>
+    <form method="post" action="https://register-demo.freecodecamp.org">
       <fieldset>
-        <label for="first-name">NOMBRE: <input id="first-name" name="first-name" type="text" required /></label>
-        <label for="last-name">APELLIDO: <input id="last-name" name="last-name" type="text" required /></label>
-        <label for="email">EMAIL: <input id="email" name="email" type="email" required /></label>
-        <label for="new-password">CREAR NUEVO PASSWORD: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+        <label for="first-name"
+          >NOMBRE:
+          <input id="first-name" name="first-name" type="text" required
+        /></label>
+        <label for="last-name"
+          >APELLIDO:
+          <input id="last-name" name="last-name" type="text" required
+        /></label>
+        <label for="email"
+          >EMAIL: <input id="email" name="email" type="email" required
+        /></label>
+        <label for="new-password"
+          >CREAR NUEVO PASSWORD:
+          <input
+            id="new-password"
+            name="new-password"
+            type="password"
+            pattern="[a-z0-5]{8,}"
+            required
+        /></label>
       </fieldset>
       <fieldset>
-        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> CUENTA PERSONAL</label>
-        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> CUENTA LABORAL</label>
+        <label for="personal-account"
+          ><input
+            id="personal-account"
+            type="radio"
+            name="account-type"
+            class="inline"
+          />
+          CUENTA PERSONAL</label
+        >
+        <label for="business-account"
+          ><input
+            id="business-account"
+            type="radio"
+            name="account-type"
+            class="inline"
+          />
+          CUENTA LABORAL</label
+        >
         <label for="terms-and-conditions">
-          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> ACEPTO LOS TEMINOS Y CONDICIONES <a href="https://www.linkedin.com/in/jorge-daniel-olivera-12264a195/">Terminos y condiciones</a>
+          <input
+            id="terms-and-conditions"
+            type="checkbox"
+            required
+            name="terms-and-conditions"
+            class="inline"
+          />
+          ACEPTO LOS TEMINOS Y CONDICIONES
+          <a href="https://www.linkedin.com/in/jorge-daniel-olivera-12264a195/"
+            >Terminos y condiciones</a
+          >
         </label>
       </fieldset>
       <fieldset>
-        <label for="profile-picture">SUBIR FOTO DE PERFIL: <input id="profile-picture" type="file" name="file" /></label>
-        <label for="age">EDAD (NUMEROS ENTEROS) <input id="age" type="number" name="age" min="13" max="120" /></label>
-        <label for="referrer">CAMPO SELECT
+        <label for="profile-picture"
+          >SUBIR FOTO DE PERFIL:
+          <input id="profile-picture" type="file" name="file"
+        /></label>
+        <label for="age"
+          >EDAD (NUMEROS ENTEROS)
+          <input id="age" type="number" name="age" min="13" max="120"
+        /></label>
+        <label for="referrer"
+          >CAMPO SELECT
           <select id="referrer" name="referrer">
             <option value="">(opcion por defecto)</option>
             <option value="1">opcion1</option>
@@ -35,12 +84,18 @@
             <option value="4">opcion4</option>
           </select>
         </label>
-        <label for="bio">INGRESAR TEXTO:
-          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="TEXTO POR DEFECTO..."></textarea>
+        <label for="bio"
+          >INGRESAR TEXTO:
+          <textarea
+            id="bio"
+            name="bio"
+            rows="3"
+            cols="30"
+            placeholder="TEXTO POR DEFECTO..."
+          ></textarea>
         </label>
       </fieldset>
       <input type="submit" value="ENVIAR" />
     </form>
-    
-</body>
+  </body>
 </html>
