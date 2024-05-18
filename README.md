@@ -1,6 +1,6 @@
 # Login Form
 
-![Image text](https://github.com/Tanqueta88/Example_loginForm/blob/main/Login.png)
+![Image text](https://github.com/Tanqueta88/Example_loginForm/blob/main/images/Login.png)
 
 ## Content
 * [General information](#introduccion)
