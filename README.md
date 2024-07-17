@@ -1,6 +1,11 @@
-# Login Form
+<h1 align="center">
+  <p align="center">Login Form</p>
+</h1>
 
 ![Image text](https://github.com/Tanqueta88/Example_loginForm/blob/main/images/Login.png)
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
 ## Content
 * [General information](#introduccion)
@@ -35,10 +40,21 @@ This repository uses some intermediate CSS techniques to code a Login form. It i
 </details>
    <hr>
 
-<a name="installation"></a>    
-## Project installation
-1 - Clone the project from the following Github URL. 
+<a name="installation"></a>
+
+## Project installation 💻
+<details>
+    <summary>Click Here for Detail ↩️</summary>
+    <br>
+
+***
+1 - Clone the project from the following Github URL.
 ```
-$ git clone [git@github.com:Tanqueta88/Example_loginForm.git](https://github.com/Tanqueta88/Example_loginForm.git)
+$ git clone https://github.com/TanqDev88/Example_loginForm.git
 
 ```
+
+2 - Open the project in Visual studio code IDE<br><br>
+
+</details>
+<hr>
